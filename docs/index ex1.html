@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	<title>meu curriculo</title>
+	
+	<style type="text/css">
+		p { text-indent:20px;} /*recuo da primeira linha*/
+		h1{
+			text-align:center ; /* alinhar texto*/
+			background-color: red; /*alterar cor */
+			font-style: italic; /*colocar em italico */
+			font-size: 24pt; /* alterar tamanho letra*/
+			font-family: helvetica; /* alterar fonte*/
+			color: gold; /*cor da letra */
+		}
+		#fotinho {
+				text-align:center ; /*alinhar o que esta dentro de fotinho, a foto, endereço, nome e telefone*/
+				background:url(pure.jpg);
+		}
+		img {
+			border-radius: 66%; /*borda da foto*/
+			opacity: 1;/*opacidade vai de 0 ate 1 e a VIRGULA NAO EXISTE É PONTO SMP*/
+		} 
+		h2{
+			background-color:#ff8080;
+			font-size: 18pt;
+			font-family: Arial;
+		}
+		h3{ 
+			background-color: #000;/*esse é o preto escrito*/
+			color: #fff;/*escrito o branco é #fff*/
+			font-size: 14pt;
+		}
+		.kinga{ /*classe vc coloca ponto*/
+			font-style: italic;
+			font-weight:normal;
+			color:yellow;
+			}
+		#principal {/*id vc coloca hashtag*/
+				background-color: #cecece;/*cinza claro*/
+				width: 50%;/*a regiao ocupa 50% na horizoltal*/
+				margin: 0 auto ;/*tecnica para centralizar na horizontal*/
+			}
+			* /*resetador universal(tem que ser esse, com o body e o html nn funciona*/{
+				margin-top: 0;/*gruda o conteudo no navegador*/
+			}
+	</style>
+</head>
+<body>
+<div id="principal">
+	<h1>Maria Antonia</h1>
+	<div id="fotinho">
+		<img src="https://th.bing.com/th/id/OIP.k9yiWKgqYmxBnBsItESRQgHaEM?pid=ImgDet&rs=1" width="400" alt= "foto meme miranda cosgrove">
+		<p>Carly<br>
+		<!--nome e "br"=quebra de paragrafo-->
+		Arthur de Azevedo,66<br>
+		<!--endereço-->
+		(32)6666
+		<!--telefone-->
+		</p> 
+		<!--paragrafo -->
+		
+	</div>
+	<!--divisor-->
+	<h2>Qualificações Pessoais</h2> <!--titulo2-->
+		<p>	Lorem ipsum dolor sit amet.</p>
+		<p>	Lorem ipsum dolor sit amet.</p>
+	
+	<h2>Histórico acadêmico</h2><!--voce mantem o h2 pq esses titulos tem o mesmo proposito-->
+	<ol>
+		<li>Escola da vida</li>
+		<li>Internet</li>
+		<li>Nickelodeon</li>
+		<li>Meme</li> <!--lista-->
+	</ol> <!--inserir uma lista ordenada-->
+	
+	<h2>Soft Skills</h2>
+	<ul>
+		<li>Bossy</li>
+		<li>Lider nata</li>
+		<li>Engraçada</li>
+		<li>Trabalha bem com os outros</li>
+	<!--lista não ordenada-->
+	</ul>
+
+	<h2>Hard Skills</h2>
+		<ul>
+		<li>Mestre do Excel</li>
+		<li>Diva do Word</li>
+		<li>Genia do Power Point</li>
+		<li>Absuuuurda nas Interwebs</li>
+	<!--lista não ordenada-->
+	</ul>
+	<h2>Experiência Profissional</h2>
+	
+	<h3>Empresa 1 <span class="kinga">mai/2016 ate mai</span>
+	</h3>
+		<p>topzera maluco</p>
+	
+	<h3>Empresa 2 <span class="kinga"> out/2016 ate out</span>
+	</h3>
+		<p>carai flopada</p>
+<div/>
+</body>
+</html>
